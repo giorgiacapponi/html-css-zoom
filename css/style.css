@@ -1,0 +1,71 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+img{
+   /* se metto max width:100% in orizzontale funziona ma in vericale fuoriesce */
+ height: 100%;
+
+   
+}
+
+
+.wrapper{
+    height: 100vh;
+    background-color:black;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    
+}
+.container{ 
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  
+    
+     height:100%
+
+}
+
+.col{
+    gap: 5px;
+    height: calc(100% / 5);
+}
+.card{ padding-bottom: 5px;
+    width: calc(100% / 7);
+   
+}
+
+
+footer{
+    height: 70px;
+    background-color: rgb(53, 53, 55);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right{
+    color: red;
+    background-color: darkgrey;
+    height: 100%;
+    line-height: 100%;
+    padding: 10px;
+    
+   
+}
+i{
+    font-size: 1.3rem;
+    color:white;
+    margin-right: 5px;
+}
+.fa-angle-up{display: inline-block;
+    font-size: 0.7rem;
+}
+
