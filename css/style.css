@@ -11,6 +11,8 @@
 img{
    /* se metto max width:100% in orizzontale funziona ma in vericale fuoriesce */
  height: 100%;
+ width: 100%;
+ object-fit: cover;
 
    
 }
